@@ -1,0 +1,68 @@
+
+body{
+    background: linear-gradient(120deg, rgb(102, 97, 97) 50%,rgb(42, 45, 42) 50%);
+    color: #ccc;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.headings:nth-last-child(){
+color: red;
+}
+form{
+    background: transparent;
+    backdrop-filter: blur(100px);
+    border: 1px solid;
+    padding: 1rem;
+    border-radius: 6px;
+}
+form label{
+    display: block;
+    margin-bottom: 1rem;
+}
+table{
+    border: 1px solid ;
+    border-color: red blue green ;
+    border-collapse: collapse;
+    
+}
+table tr,th,td{
+ padding: 1rem;
+}
+
+.btn-1{
+    background: red;
+    padding: 10px 15px;
+    margin-top: 1rem;
+border: none;
+color: white;
+font-weight: 600;
+border-radius: 6px;
+cursor: pointer;
+transition: 0.3s ease;
+animation-name:anim 0.3s ;
+animation-duration: 0.5s;
+
+}
+.btn-1:hover{
+    background: rgb(184, 16, 16);
+}
+.link{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.lists{
+    display: flex;
+    flex-direction: row;
+}
+@keyframes anim{
+   from{opacity: 0;}
+
+   to {
+    opacity: 1;
+   }
+   
+}
